@@ -38,6 +38,14 @@ class Program
         bool esExacta        = velocidadMaxima == 250;
         bool esDiferente     = experienciaAnios != 0;
 
+        if (edad >= 18 &&
+            velocidadMaxima >= 250 &&
+            nivelCombustible >= 50 &&
+            estadoOptimo)
+        {
+            Console.WriteLine("PILOTO APROBADO");
+        }
+
         Console.WriteLine("\n=== CÁLCULOS DE CARRERA ===");
         Console.WriteLine($"Puntos: {puntos}");
         Console.WriteLine($"Promedio por vuelta: {promedio} km");
