@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TorettoRacing")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+45f19ff520765ee6f51bb6a9233fd5f3ab4a42bd")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+447d102a2c60343c2a776dfaf74aebd8095e0e93")]
 [assembly: System.Reflection.AssemblyProductAttribute("TorettoRacing")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TorettoRacing")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

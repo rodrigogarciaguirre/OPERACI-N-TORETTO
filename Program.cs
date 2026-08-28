@@ -12,7 +12,7 @@ namespace TorettoRacing
 
             Console.Write("Ingrese el número de piloto: ");
             int numero = int.Parse(Console.ReadLine());
-            
+
             int     edad        = 25;
             double  velocidad   = 310.5;
             decimal combustible = 60.5m;
@@ -25,6 +25,13 @@ namespace TorettoRacing
             {
                 Console.WriteLine("⚠ VELOCIDAD EXCEDE EL LÍMITE");
             }
+
+
+            Console.WriteLine("PILOTO");
+            Console.WriteLine("Nombre: " + nombre);
+
+            // Interpolación:
+            Console.WriteLine($"Velocidad máxima: {velocidad} km/h");
 		}
 	}
 }
