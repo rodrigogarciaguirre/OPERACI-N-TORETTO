@@ -6,8 +6,13 @@ namespace TorettoRacing
 	{
 		static void Main(string[] args)
 		{
-			// C# Corredor
-            string  nombre      = "Brian O'Conner";
+			// C# Datos del corredor
+            Console.Write("Ingrese el nombre del piloto: ");
+            string nombre = Console.ReadLine();
+
+            Console.Write("Ingrese el número de piloto: ");
+            int numero = int.Parse(Console.ReadLine());
+            
             int     edad        = 25;
             double  velocidad   = 310.5;
             decimal combustible = 60.5m;
