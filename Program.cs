@@ -36,6 +36,14 @@ namespace TorettoRacing
             Console.Write("Velocidad máxima (km/h): ");
             double velMax = double.Parse(Console.ReadLine());
 
+            //carrera
+            Console.WriteLine("Distancia(km): ");
+            double distancia = double.Parse(Console.ReadLine());
+            Console.WriteLine("Vueltas: ");
+            int vueltas = int.Parse(Console.ReadLine());
+            Console.WriteLine("Combustible(L):  ");
+            double combustible = double.Parse(Console.ReadLine());
+
             const int VELOCIDAD_MAXIMA_PERMITIDA = 350;
             // Uso en validación:
             if (velocidad > VELOCIDAD_MAXIMA_PERMITIDA)
@@ -43,12 +51,39 @@ namespace TorettoRacing
                 Console.WriteLine("⚠ VELOCIDAD EXCEDE EL LÍMITE");
             }
 
-
-            Console.WriteLine("PILOTO");
-            Console.WriteLine("Nombre: " + nombre);
-
-            // Interpolación:
-            Console.WriteLine($"Velocidad máxima: {velocidad} km/h");
+            // Mostrar datos del corredor y del vehículo
+            Console.WriteLine("============================================");
+            Console.WriteLine("\nSTREET KINGS RACING - DATOS DEL PILOTO");
+            Console.WriteLine("=============================================");
+            Console.WriteLine();
+            Console.WriteLine($"PILOTO");
+            Console.WriteLine($"Nombre completo: {nombre}");
+            Console.WriteLine($"Alias: {alias}");
+            Console.WriteLine("Edad: " + edad);
+            Console.WriteLine($"País: {pais}");
+            Console.WriteLine($"Número de piloto: {numero}");
+            Console.WriteLine();
+            Console.WriteLine($"VEHÍCULO");
+            Console.WriteLine($"Marca: {marca}");
+            Console.WriteLine($"Modelo: {modelo}");
+            Console.WriteLine($"Año: {anio}");
+            Console.WriteLine($"Cilindraje: {cilindraje} L");
+            Console.WriteLine($"Capacidad del tanque: {tanque} L");
+            Console.WriteLine($"Velocidad máxima: {velMax} km/h");
+            Console.WriteLine();
+            Console.WriteLine($"CARRERA");
+            Console.WriteLine($"Distancia: {distancia} km");
+            Console.WriteLine($"Vueltas: {vueltas}");
+            Console.WriteLine($"Combustible: {combustible} L");
+            //Bonus
+            double velocidadPromedio = distancia / vueltas;
+            double combustibleporvuelta = combustible / vueltas;
+            double distanciaTotal = distancia * vueltas;
+            Console.WriteLine($"Velocidad promedio: {velocidadPromedio} km/h");
+            Console.WriteLine($"Combustible por vuelta: {combustibleporvuelta} L");
+            Console.WriteLine($"Distancia total: {distanciaTotal} km");
+            Console.WriteLine();
+            Console.ReadKey();
 		}
 	}
 }
