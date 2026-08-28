@@ -13,6 +13,13 @@ namespace TorettoRacing
             decimal combustible = 60.5m;
             bool    aprobado    = true;
             char    categoria   = 'A';
+
+            const int VELOCIDAD_MAXIMA_PERMITIDA = 350;
+            // Uso en validación:
+            if (velocidad > VELOCIDAD_MAXIMA_PERMITIDA)
+            {
+                Console.WriteLine("⚠ VELOCIDAD EXCEDE EL LÍMITE");
+            }
 		}
 	}
 }

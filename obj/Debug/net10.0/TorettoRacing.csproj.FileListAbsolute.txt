@@ -1,0 +1,15 @@
+/home/nino/Projects/C#/OPERACION TORETO/TorettoRacing/bin/Debug/net10.0/TorettoRacing
+/home/nino/Projects/C#/OPERACION TORETO/TorettoRacing/bin/Debug/net10.0/TorettoRacing.deps.json
+/home/nino/Projects/C#/OPERACION TORETO/TorettoRacing/bin/Debug/net10.0/TorettoRacing.runtimeconfig.json
+/home/nino/Projects/C#/OPERACION TORETO/TorettoRacing/bin/Debug/net10.0/TorettoRacing.dll
+/home/nino/Projects/C#/OPERACION TORETO/TorettoRacing/bin/Debug/net10.0/TorettoRacing.pdb
+/home/nino/Projects/C#/OPERACION TORETO/TorettoRacing/obj/Debug/net10.0/TorettoRacing.GeneratedMSBuildEditorConfig.editorconfig
+/home/nino/Projects/C#/OPERACION TORETO/TorettoRacing/obj/Debug/net10.0/TorettoRacing.AssemblyInfoInputs.cache
+/home/nino/Projects/C#/OPERACION TORETO/TorettoRacing/obj/Debug/net10.0/TorettoRacing.AssemblyInfo.cs
+/home/nino/Projects/C#/OPERACION TORETO/TorettoRacing/obj/Debug/net10.0/TorettoRacing.csproj.CoreCompileInputs.cache
+/home/nino/Projects/C#/OPERACION TORETO/TorettoRacing/obj/Debug/net10.0/TorettoRacing.sourcelink.json
+/home/nino/Projects/C#/OPERACION TORETO/TorettoRacing/obj/Debug/net10.0/TorettoRacing.dll
+/home/nino/Projects/C#/OPERACION TORETO/TorettoRacing/obj/Debug/net10.0/refint/TorettoRacing.dll
+/home/nino/Projects/C#/OPERACION TORETO/TorettoRacing/obj/Debug/net10.0/TorettoRacing.pdb
+/home/nino/Projects/C#/OPERACION TORETO/TorettoRacing/obj/Debug/net10.0/TorettoRacing.genruntimeconfig.cache
+/home/nino/Projects/C#/OPERACION TORETO/TorettoRacing/obj/Debug/net10.0/ref/TorettoRacing.dll
