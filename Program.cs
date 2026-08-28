@@ -46,6 +46,16 @@ class Program
             Console.WriteLine("PILOTO APROBADO");
         }
 
+        if (edad >= 18)
+        {
+            Console.WriteLine("Puede competir");
+        }
+        else
+        {
+            Console.WriteLine("Edad insuficiente");
+            Console.WriteLine("PILOTO RECHAZADO");
+        }
+
         Console.WriteLine("\n=== CÁLCULOS DE CARRERA ===");
         Console.WriteLine($"Puntos: {puntos}");
         Console.WriteLine($"Promedio por vuelta: {promedio} km");
