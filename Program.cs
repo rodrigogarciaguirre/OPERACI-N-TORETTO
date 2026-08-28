@@ -7,17 +7,20 @@ namespace TorettoRacing
 		static void Main(string[] args)
 		{
 			// C# Datos del corredor
-            Console.Write("Ingrese el nombre del piloto: ");
-            string nombre = Console.ReadLine();
+        Console.WriteLine("STREET KINGS RACING");
+        Console.WriteLine("REGISTRO DE PILOTO");
 
-            Console.Write("Ingrese el número de piloto: ");
-            int numero = int.Parse(Console.ReadLine());
-
-            int     edad        = 25;
-            double  velocidad   = 310.5;
-            decimal combustible = 60.5m;
-            bool    aprobado    = true;
-            char    categoria   = 'A';
+        Console.Write("Nombre completo: ");
+        string nombre = Console.ReadLine();
+        Console.Write("Alias: ");
+        string alias  = Console.ReadLine();
+        Console.Write("Edad: ");
+        int edad   = int.Parse(Console.ReadLine());
+        Console.Write("País: ");
+        string pais   = Console.ReadLine();
+        Console.Write("Número de piloto: ");
+        int numero = int.Parse(Console.ReadLine());
+        double velocidad = 320.1;
 
             const int VELOCIDAD_MAXIMA_PERMITIDA = 350;
             // Uso en validación:
