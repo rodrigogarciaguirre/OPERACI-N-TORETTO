@@ -31,6 +31,13 @@ class Program
         double distanciaTotal = distancia * vueltas;
         int residuo = vueltas % 3;
 
+        // OPERADORES RELACIONALES
+        bool mayorEdad        = edad >= 18;
+        bool velSuficiente   = velocidadMaxima >= 250;
+        bool tieneCombustible = nivelCombustible >= 50;
+        bool esExacta        = velocidadMaxima == 250;
+        bool esDiferente     = experienciaAnios != 0;
+
         Console.WriteLine("\n=== CÁLCULOS DE CARRERA ===");
         Console.WriteLine($"Puntos: {puntos}");
         Console.WriteLine($"Promedio por vuelta: {promedio} km");
